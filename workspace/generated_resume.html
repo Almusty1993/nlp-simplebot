@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mustapha Alanamu's Resume</title>
+  <style>
+    /* Base Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #e9ecef;
+      color: #333;
+    }
+    .resume-container {
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: row;
+    }
+    /* Left Column Styles */
+    .left-column {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px;
+      width: 35%;
+    }
+    .left-column .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 15px;
+    }
+    .left-column h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .contact-info, .skills {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+    }
+    .contact-info li,
+    .skills li {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .skills li {
+      background-color: #495057;
+      padding: 5px 10px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    .left-column h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #495057;
+      padding-bottom: 5px;
+    }
+    /* Right Column Styles */
+    .right-column {
+      padding: 20px;
+      width: 65%;
+    }
+    .right-column h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 5px;
+      color: #343a40;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .experience-item, .education-item {
+      margin-bottom: 15px;
+    }
+    .experience-item h3, .education-item h3 {
+      font-size: 18px;
+      margin: 0;
+    }
+    .experience-item span, .education-item span {
+      font-size: 14px;
+      color: #6c757d;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .experience-item p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .resume-container {
+        flex-direction: column;
+      }
+      .left-column, .right-column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Left Column -->
+    <div class="left-column">
+      <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-pic" />
+      <h1>Mustapha Alanamu</h1>
+      <h2>Contact</h2>
+      <ul class="contact-info">
+        <li>Email: <a href="mailto:alanamumusty@gmail.com" style="color: #ffc107;">alanamumusty@gmail.com</a></li>
+        <li>Phone: 5146524490</li>
+        <li>Address: 43 Hazelton Ave</li>
+      </ul>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Java</li>
+        <li>Angular</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>User Experience</li>
+        <li>User Interface</li>
+      </ul>
+    </div>
+    <!-- Right Column -->
+    <div class="right-column">
+      <div class="section">
+        <h2>Professional Summary</h2>
+        <p>
+          I have experience in Java, Angular, Javascript, HTML, CSS, User experience and User Interface.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
